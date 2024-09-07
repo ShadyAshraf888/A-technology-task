@@ -1,0 +1,78 @@
+<div class="ticketContainer rounded-2 text-center text-white">
+  <div class="ticket">
+    <!-- delete-icon -->
+    <div class="trash-div">
+      <img
+        [pTooltip]="'deleteIcon.delete'"
+        tooltipPosition="bottom"
+        src="../assets/image/trash.png"
+        alt=""
+        srcset=""
+      />
+    </div>
+    <div class="ticketTitle my-3">{{ "ticket.ticketHead" | translate }}</div>
+
+    <div class="ticket-copy">
+      <div
+        id="textToCopy"
+        class="ticketCopyText bg-white text-black d-flex justify-content-between align-items-center w-50 mx-auto p-2 rounded-2"
+      >
+        <div class="ticketCopyImg">
+          <img
+            id="copyIcon"
+            (click)="copyText()"
+            src="../assets/image/copyText.png"
+            alt=""
+          />
+        </div>
+        www.tazkty.com/473847
+      </div>
+      <!-- this part is for coping text next to the icon when click on the icon copy -->
+    </div>
+    <div class="ticketDetail">
+      <div>{{ "ticket.ticketExpire" | translate }}</div>
+    </div>
+    <div class="ticketRip d-flex justify-content-between align-items-center">
+      <div #circleLeft class="circleLeft"></div>
+      <div class="ripLine"></div>
+      <div #circleRight class="circleRight"></div>
+    </div>
+    <div
+      class="ticketSubDetail d-flex p-2 justify-content-between align-items-center"
+    >
+      <div class="discount">
+        <div>
+          <div class="discount-head">
+            {{ "ticket.ticketDiscount" | translate }}
+          </div>
+          <div
+            class="discountDetails d-flex justify-content-between align-items-center"
+          >
+            <div class="percent mx-2">25%</div>
+            <div
+              class="ticketButton btn btn-outline-dark d-flex justify-content-between align-items-center border-1"
+            >
+              <div>
+                <img src="../assets/image/send-2.png" alt="" />
+              </div>
+              <div>
+                {{ "ticket.ticketShare" | translate }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- the QR code in the ticket -->
+      <div class="QR">
+        <qrcode
+          [qrdata]="
+            'https://www.linkedin.com/company/technologiesa/posts/?feedView=all'
+          "
+          [width]="82"
+          [margin]="1"
+          [allowEmptyString]="true"
+        ></qrcode>
+      </div>
+    </div>
+  </div>
+</div>

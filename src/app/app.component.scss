@@ -1,0 +1,27 @@
+body,
+.background-color {
+  background-color: #f3f5f7 !important;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: #e7eaed;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 114px;
+  height: 34px;
+  border-width: 4px;
+  border: 1px solid #e9eaea;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}

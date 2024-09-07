@@ -1,0 +1,60 @@
+<div
+  class="container-fluid background-color"
+  #direction
+  [dir]="'dir' | translate"
+>
+  <div class="d-flex justify-content-center align-items-center">
+    <label for=""> Choose a language : </label>
+    <p-dropdown
+      [options]="languages"
+      [(ngModel)]="selectedLanguage"
+      optionLabel="name"
+      [showClear]="false"
+      placeholder="Select a Language"
+      (onChange)="changeLanguage($event)"
+    ></p-dropdown>
+  </div>
+  <div class="row">
+    <div>
+      <div class="ticket-no d-flex justify-content-between">
+        <!-- Start of the head of the whole Page -->
+        <!-- start of right-side of the header -->
+        <div class="right-side d-flex">
+          <div class="arrow mx-2">
+            <img
+              src="../assets/image/Ticketno-arrow-right.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h4>{{ "header.TicketNo" | translate }}</h4>
+        </div>
+        <!-- End of right-side of the header -->
+
+        <!-- start of left-side of the header -->
+
+        <div class="left-side">
+          <div class="button d-flex">
+            <div class="button-text mx-2">
+              {{ "header.Edit" | translate }}
+            </div>
+            <div class="button-icon">
+              <img src="../assets/image/Ticketno-edit.png" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+        <!-- End of left-side of the header -->
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <A-tech-chart></A-tech-chart>
+    </div>
+    <div class="col-md-4">
+      <A-tech-card></A-tech-card>
+    </div>
+    <div class="col-md-12">
+      <A-tech-table></A-tech-table>
+    </div>
+  </div>
+</div>

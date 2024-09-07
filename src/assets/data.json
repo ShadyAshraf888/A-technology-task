@@ -1,0 +1,62 @@
+[
+  {
+    "id": 2,
+    "imgSrc": "assets/image/Image-30.png",
+    "name": "محمد الغريب",
+    "phone": "0123456789",
+    "ticketNo": "C-101",
+    "ticketPrice": 50,
+    "cinema": "سينما مصر , مول العرب , برج الأطنان , سرايا القبة",
+    "peopleNo": 1,
+    "purchaseNo": "مرة واحدة",
+    "ticket": "تذكرة رقم 45.pdf"
+  },
+  {
+    "id": 2,
+    "imgSrc": "assets/image/Image-30.png",
+    "name": "محمد الغريب",
+    "phone": "0123456789",
+    "ticketNo": "C-101",
+    "ticketPrice": 50,
+    "cinema": "سينما مصر , مول العرب , برج الأطنان , سرايا القبة",
+    "peopleNo": 1,
+    "purchaseNo": "مرة واحدة",
+    "ticket": "تذكرة رقم 45.pdf"
+  },
+  {
+    "id": 2,
+    "imgSrc": "assets/image/Image-30.png",
+    "name": "محمد الغريب",
+    "phone": "0123456789",
+    "ticketNo": "C-101",
+    "ticketPrice": 50,
+    "cinema": "سينما مصر , مول العرب , برج الأطنان , سرايا القبة",
+    "peopleNo": 1,
+    "purchaseNo": "مرة واحدة",
+    "ticket": "تذكرة رقم 45.pdf"
+  },
+  {
+    "id": 2,
+    "imgSrc": "assets/image/Image-40.png",
+    "name": "محمد الغريب",
+    "phone": "0123456789",
+    "ticketNo": "C-101",
+    "ticketPrice": 50,
+    "cinema": "سينما مصر , مول العرب , برج الأطنان , سرايا القبة",
+    "peopleNo": 1,
+    "purchaseNo": "مرة واحدة",
+    "ticket": "تذكرة رقم 45.pdf"
+  },
+  {
+    "id": 2,
+    "imgSrc": "assets/image/Image-40.png",
+    "name": "محمد الغريب",
+    "phone": "0123456789",
+    "ticketNo": "C-101",
+    "ticketPrice": 50,
+    "cinema": "سينما مصر , مول العرب , برج الأطنان , سرايا القبة",
+    "peopleNo": 1,
+    "purchaseNo": "مرة واحدة",
+    "ticket": "تذكرة رقم 45.pdf"
+  }
+]

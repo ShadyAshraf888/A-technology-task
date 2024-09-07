@@ -1,0 +1,48 @@
+.ticketContainer {
+  background-color: #8a74f9;
+}
+.ticket {
+  position: relative;
+}
+.trash-div {
+  width: 70px;
+  height: 65px;
+  position: absolute;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  left: 60px;
+  top: -15px;
+}
+
+.circleLeft {
+  transform: rotate(180deg);
+}
+.circleLeft {
+  width: 12px;
+  height: 24px;
+  background-color: #f3f5f7;
+  border-radius: 0 12px 12px 0;
+  transform: rotate(360deg);
+  border-style: none;
+}
+.circleRight {
+  width: 12px;
+  height: 24px;
+  background-color: #f3f5f7;
+  border-radius: 0 12px 12px 0;
+  transform: rotate(180deg);
+  border-style: none;
+}
+.ripLine {
+  width: 100%;
+  border-top: 3px solid #b7b5e4;
+  border-top-style: dashed;
+}
+
+.ticketButton {
+  cursor: pointer;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 7px;
+}
